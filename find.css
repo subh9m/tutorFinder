@@ -1,0 +1,84 @@
+.change{color: #5640d0;}
+.intro {
+    margin-top: 70px;
+    width: 50%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+   justify-content: space-evenly;
+   align-items: center;
+    
+}
+option{
+    color: #574c5e;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    background-color: #dbe6ff;
+}
+.bigtext{
+    font-size: 63px;
+    font-weight: bold;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #5640d0;
+    text-shadow: 2px 2px #9dc9f54b;
+}
+.medtext{
+    margin-top: 80px;
+    font-size: 31px;
+    font-weight: 400;
+   font-style: oblique;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #aa40d0;
+    text-shadow: 1px 1px #db9df54b;
+}
+.input-cont{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 40px;
+    width:100%;
+    height:100%;
+   
+}
+form{
+    background-color: #5640d0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #1e1747b2;
+    margin-top: 30px;
+    width: 600px;
+    height: 600px;
+    border-radius: 15px ;
+    box-shadow: 3px 2px #af95ff79;
+}
+form #submit:hover{
+    background-color: #ee092b97;
+    color: white;
+    cursor: pointer;
+}
+form input, select {
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-top: 30px;
+    width: 50%;
+    box-sizing: border-box;
+     font-family: montserrat; 
+    color: #2C3E50;
+    font-size: 13px
+    
+}
+form input:focus, form textarea:focus ,form select:focus {
+    /* -moz-box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important; */
+    border: 1px solid #ee0979;
+    outline-width: 0;
+    transition: All 0.5s ease-in;
+    /* -webkit-transition: All 0.5s ease-in;
+    -moz-transition: All 0.5s ease-in;
+    -o-transition: All 0.5s ease-in; */
+}
